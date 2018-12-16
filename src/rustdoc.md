@@ -51,7 +51,7 @@ does is call the `main()` that's in this crate's `lib.rs`, though.)
   for extracting doctests from a given block of Markdown.
 * The tests on rustdoc *output* are located in `src/test/rustdoc`, where
   they're handled by the test runner of rustbuild and the supplementary script
-  `src/etc/htmldocck.py`.
+  `src/etc/htmldocck.py`. Run them with `./x.py test rustdoc`.
 * Tests on search index generation are located in `src/test/rustdoc-js`, as a
   series of JavaScript files that encode queries on the standard library search
   index and expected results.
